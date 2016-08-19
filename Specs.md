@@ -19,7 +19,6 @@ of the main abstract classes of the simulation (indented bullets indicate subcla
     - Agent
       - Creature
  - AgentAI
-  - NeuralNetwork
  - Genome
  - AIGenome
 
@@ -59,20 +58,55 @@ for example, time of day (to implement day-and-night cycles), day in the year
 
 ## Entity
 
+Entities represent objects that are located within the World. Both items like food
+or creatures are entities.
+
 Entities can decide whether it wants to be registered on the update cycle of the
 simulation (that is, whether it wants to run some logic every cycle of the simulation).
 
-
-
 ## Agent
+
+An entity that calls an _AgentAI_ object during its update cycle.
+
+## Creature
+
+A subclass of _Agent_. In addition to its agency, the creature can give birth.
+The procedure with which a creature mates and gives birth is dependent on the
+implementation. The genes of the physical aspects of the creature is represented
+in a _Genome_ object, and the genes of the AI is represented in an _AIGenome_
+object.
+
+
 
 ## AgentAI
 
-## NeuralNetwork
+Controls an Agent object.
 
 ## Genome
 
+Holds the genetic code for the physical attributes of a creature. The object can
+mutate and be mated with other Genomes.
+
+The class is abstract and is meant to be extended, but there is an aspect that is meant to be
+held the same in all the subclasses of it. The way in which the Genome object
+stores the physical attributes can not be overridden. The reason for this is that
+any Creature object should be able to read the information within the Genome,
+regardless of what subclass of the Genome class it is.
+
+The modular part of the Genome class is the mutation and mating behavior.
+
 ## AIGenome
+
+Holds the genetic code for the attributes of an AgentAI. The object can mutate and
+be mated with other AIGenome objects.
+
+Since the informational structure of an AI (especially neural networks) can be quite
+complex, there has to be a separate AIGenome subclass associated with each AgentAI
+subclass (it cannot be kept general as in the case of the Genome class). In fact,
+in the mating procedure between creatures, it is through the
+AIGenome that we get the AgentAI instantiation to go inside the child creature.
+
+# Ideas
 
 ## Animal
 Animals have a set of status information and of ways to interact with other animals as well as with the environment.
