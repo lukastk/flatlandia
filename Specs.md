@@ -76,8 +76,6 @@ implementation. The genes of the physical aspects of the creature is represented
 in a _Genome_ object, and the genes of the AI is represented in an _AIGenome_
 object.
 
-
-
 ## AgentAI
 
 Controls an Agent object.
@@ -183,5 +181,9 @@ In the protected constructor of the Entity class, a boolean value should be pass
 that decides whether it should register itself onto the update cycle of the simulation.
 
 Potentially, we could also have entities that only updated when interacted with.
+
+The frequency of updating that an Entity requires is displayed in public by the Entity
+by its value of its EntityUpdateProtocol. The world should learn of any changes in the
+update protocol of an Entity through calling of event functions.
 
 ---
