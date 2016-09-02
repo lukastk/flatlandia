@@ -27,6 +27,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
+/*! 
 enum EntityUpdateProtocol {
   NeverUpdate,
   Update,
