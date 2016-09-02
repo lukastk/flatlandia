@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>120</x>
-      <y>492</y>
+      <x>138</x>
+      <y>546</y>
       <w>288</w>
       <h>114</h>
     </coordinates>
@@ -16,8 +16,8 @@ Simulation</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>204</x>
-      <y>210</y>
+      <x>222</x>
+      <y>264</y>
       <w>138</w>
       <h>66</h>
     </coordinates>
@@ -28,8 +28,8 @@ Visualisation</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>120</x>
-      <y>360</y>
+      <x>138</x>
+      <y>414</y>
       <w>288</w>
       <h>60</h>
     </coordinates>
@@ -40,8 +40,8 @@ WorldFrameHandler</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>516</x>
-      <y>492</y>
+      <x>534</x>
+      <y>546</y>
       <w>252</w>
       <h>114</h>
     </coordinates>
@@ -53,8 +53,8 @@ SimulationManager
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>204</x>
-      <y>132</y>
+      <x>222</x>
+      <y>186</y>
       <w>138</w>
       <h>66</h>
     </coordinates>
@@ -65,8 +65,8 @@ WebVisualisation</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>528</x>
-      <y>210</y>
+      <x>546</x>
+      <y>264</y>
       <w>210</w>
       <h>66</h>
     </coordinates>
@@ -77,8 +77,8 @@ SimulationManagerGUI</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>402</x>
-      <y>540</y>
+      <x>420</x>
+      <y>594</y>
       <w>72</w>
       <h>18</h>
     </coordinates>
@@ -88,8 +88,8 @@ SimulationManagerGUI</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>462</x>
-      <y>534</y>
+      <x>480</x>
+      <y>588</y>
       <w>66</w>
       <h>30</h>
     </coordinates>
@@ -100,8 +100,8 @@ SimulationManagerGUI</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>258</x>
-      <y>306</y>
+      <x>276</x>
+      <y>360</y>
       <w>66</w>
       <h>66</h>
     </coordinates>
@@ -112,8 +112,8 @@ WorldFrame</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>264</x>
-      <y>270</y>
+      <x>282</x>
+      <y>324</y>
       <w>84</w>
       <h>60</h>
     </coordinates>
@@ -124,8 +124,8 @@ WorldFrame</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>114</x>
-      <y>162</y>
+      <x>132</x>
+      <y>216</y>
       <w>156</w>
       <h>168</h>
     </coordinates>
@@ -136,8 +136,8 @@ World Frame</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>252</x>
-      <y>450</y>
+      <x>270</x>
+      <y>504</y>
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -148,8 +148,8 @@ WorldFrame</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>258</x>
-      <y>414</y>
+      <x>276</x>
+      <y>468</y>
       <w>66</w>
       <h>48</h>
     </coordinates>
@@ -160,8 +160,8 @@ WorldFrame</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>528</x>
-      <y>132</y>
+      <x>546</x>
+      <y>186</y>
       <w>210</w>
       <h>66</h>
     </coordinates>
@@ -172,8 +172,8 @@ WebGUI</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>624</x>
-      <y>444</y>
+      <x>642</x>
+      <y>498</y>
       <w>96</w>
       <h>60</h>
     </coordinates>
@@ -184,8 +184,8 @@ Simulation Control</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>630</x>
-      <y>180</y>
+      <x>648</x>
+      <y>234</y>
       <w>228</w>
       <h>288</h>
     </coordinates>
@@ -197,19 +197,19 @@ Simulation Control</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>498</x>
-      <y>252</y>
-      <w>138</w>
+      <y>306</y>
+      <w>156</w>
       <h>216</h>
     </coordinates>
     <panel_attributes>lt=[]-(
 Simulation Control</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;10.0;10.0;330.0;200.0;330.0</additional_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0;10.0;330.0;230.0;330.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>150</y>
+      <x>354</x>
+      <y>204</y>
       <w>102</w>
       <h>24</h>
     </coordinates>
@@ -220,8 +220,8 @@ Visualisation</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>426</x>
-      <y>150</y>
+      <x>444</x>
+      <y>204</y>
       <w>114</w>
       <h>30</h>
     </coordinates>
@@ -232,8 +232,8 @@ Visualisation</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>426</x>
-      <y>228</y>
+      <x>444</x>
+      <y>282</y>
       <w>114</w>
       <h>30</h>
     </coordinates>
@@ -244,8 +244,8 @@ Visualisation</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
-      <y>228</y>
+      <x>354</x>
+      <y>282</y>
       <w>102</w>
       <h>24</h>
     </coordinates>
@@ -256,8 +256,8 @@ Visualisation</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>90</x>
-      <y>90</y>
+      <x>108</x>
+      <y>144</y>
       <w>774</w>
       <h>546</h>
     </coordinates>
